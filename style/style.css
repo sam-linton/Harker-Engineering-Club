@@ -118,7 +118,7 @@ body {
     display: block;
     width: 15rem;
     color: var(--bright-color);
-    background-color: var(--background-color);
+    background-color: var(--dark-color);
     border: 0.1rem solid var(--dark-color);
     text-decoration: none;
     padding: 0.25rem 2rem;
@@ -126,6 +126,6 @@ body {
 }
 
 .more-info:hover {
-    background-color: var(--dark-color);
+    background-color: var(--background-color);
 }
 
