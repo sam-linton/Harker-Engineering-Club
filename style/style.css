@@ -91,11 +91,18 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.contents ol {
+    margin-left: 1rem;
+}
+
+.contents ol li {
+    margin-bottom: 0.5rem;
+}
+
 .divider {
     height: 0%;
     margin: 2rem 0rem;
     border-top: solid var(--bright-color) 0.1rem; 
-
 }
 
 .header {
@@ -128,4 +135,5 @@ body {
 .more-info:hover {
     background-color: var(--background-color);
 }
+
 
