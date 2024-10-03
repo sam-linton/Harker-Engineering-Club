@@ -136,12 +136,12 @@ body {
     background-color: var(--background-color);
 }
 
-a {
+.contents a {
     color: var(--bright-color);
     text-decoration: none;
 }
 
-a:hover {
+.contents a:hover {
     text-decoration: underline;
 }
 
