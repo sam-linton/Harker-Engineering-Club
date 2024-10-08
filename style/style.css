@@ -56,13 +56,20 @@ body {
 .title-bar {
     background-color: rgb(0, 0, 0, 0.8);
     z-index: 1;
+    padding: 2rem;
 }
 
 .title-bar > h1 {
     font-size: 3rem;
     text-align: center;
     color: orange;
-    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.title-bar > h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--text-color);
 }
 
 .contents {
@@ -144,5 +151,74 @@ body {
 .contents a:hover {
     text-decoration: underline;
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+
+.card {
+    display: flex;
+    max-width: 30%;
+    flex-direction: column;
+    background-color: var(--dark-color);
+    border: 1px solid var(--dark-color);
+    padding: 1rem 1rem;
+    min-height: 20rem;
+    transition: 0.5s;
+}
+
+.card:hover {
+    border: 1px solid var(--bright-color);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h1 {
+    font-size: 1.5rem;
+    color: var(--bright-color);
+    margin: 1rem 0rem;
+}
+.card p {
+    font-size: 1rem;
+}
+
+.card .spacer {
+    height: 100%;
+}
+
+.card a {
+    display: block;
+    visibility: hidden;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    text-transform: lowercase;
+    border: 1px solid var(--bright-color);
+    padding: 0.25rem 0rem;
+    width: 100%;
+    text-align: center;
+}
+
+.card:hover a {
+    visibility: visible;
+}
+
+.card a:hover {
+    background-color: var(--bright-color);
+    color: var(--dark-color);
+    display: block;
+    text-decoration: none;
+    border: 1px solid var(--bright-color);
+    padding: 0.25rem 0rem;
+    width: 100%;
+    text-align: center;
+}
+
 
 
