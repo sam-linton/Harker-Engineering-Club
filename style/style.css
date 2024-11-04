@@ -159,8 +159,6 @@ body {
     gap: 1rem;
 }
 
-
-
 .card {
     display: flex;
     max-width: 30%;
@@ -170,6 +168,7 @@ body {
     padding: 1rem 1rem;
     min-height: 20rem;
     transition: 0.5s;
+    overflow: hidden;
 }
 
 .card:hover {
@@ -195,7 +194,6 @@ body {
 
 .card a {
     display: block;
-    visibility: hidden;
     text-decoration: none;
     letter-spacing: 0.2rem;
     text-transform: lowercase;
